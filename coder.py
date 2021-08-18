@@ -118,8 +118,7 @@ else:
                     break
             extension = [i] + extension
         extension = ''.join(extension[:-4])
-        im.save('coder\\decode\\{}.{}'.format(base64.b64decode(name).decode(), extension))
         os.remove("coder\\result\\{}.cdp".format(file_name[:-4]))
+        im.save('coder\\result\\{}.{}'.format(base64.b64decode(name).decode(), extension))
     else:
         print("Invalid token")
-

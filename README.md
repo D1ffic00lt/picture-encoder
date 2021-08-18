@@ -4,7 +4,7 @@ Usage.
 1. Run the coder.py file
 - at the first start, the program itself will create all the folders necessary for work
 2. Select the mode (encoding / decoding)
-3. 
+
 Coding:
 - Place the picture in a coder\encode folder
 - Specify file name (with extension)
